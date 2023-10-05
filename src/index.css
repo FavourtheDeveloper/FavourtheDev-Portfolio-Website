@@ -1,13 +1,405 @@
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #060918;
+  color: white;
+  font-family: "Lato", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mycontainer {
+  width: 90%;
+  margin: auto;
 }
+
+nav {
+  background-color: #060918;
+}
+
+nav .navbar-toggler-icon {
+  background-color: #fae5db;
+  padding: 25px;
+}
+
+nav ul li {
+  font-size: 20px;
+  padding-left: 30px;
+  color: white;
+}
+
+nav ul li a {
+  color: white !important;
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid #138496;
+  transition: 0.5s;
+}
+
+header {
+  margin-top: 180px;
+}
+
+header .row .col-lg-6 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  padding-top: 100px;
+}
+
+header .row .col-lg-6 .resumebut {
+  background-color: transparent;
+}
+
+header .row .col-lg-6 .resumebut:hover {
+  border-right: 6px solid #4dccb9;
+  border-bottom: 6px solid #4dccb9;
+}
+
+header .row .col-lg-6 p {
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+header .row .smediaicons {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+header .row .smediaicons i {
+  padding-right: 20px;
+}
+
+header .row .sepicon i {
+  color: #138496;
+}
+
+header .row .sepicon i:hover {
+  color: white;
+}
+
+header .row .smediaicons i:hover {
+  color: #138496;
+}
+
+#about {
+  margin-top: 100px;
+  padding: 100px 0;
+}
+
+#about h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#about p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  text-align: justify;
+}
+
+#about button {
+  padding: 10px 15px;
+  background: transparent;
+  border: 3px solid #138496;
+  color: white;
+  border-radius: 50px;
+}
+
+#about button a {
+  color: white;
+  text-decoration: none;
+}
+
+#about button:hover {
+  border-right: 6px solid #4dccb9;
+  border-bottom: 6px solid #4dccb9;
+}
+
+#skills {
+  margin-top: 50px;
+  padding: 10px 0;
+}
+
+#skills h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  line-height: 60px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#skills ul li::marker {
+  content: "•";
+  font-size: 30px;
+  color: #4dccb9;
+}
+
+#skills ul li {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+#projects {
+  margin-top: 100px;
+  padding: 10px 0;
+}
+
+#projects h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+#projects h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-bottom: 13px;
+}
+
+#projects .projectcard {
+  background-color: #0b172b;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+#projects .projectcard p {
+  color: #7892a3;
+}
+
+#projects .projectcard .githubicon {
+  margin-top: 30px;
+}
+
+#projects .projectcard .githubicon i{
+  cursor: pointer;
+}
+
+
+
+#projects .projectcard button {
+  background-color: transparent;
+  margin: 10px;
+  border: 2px solid #7892a3;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 7px;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+#projects .projectcard button:hover {
+  border-right: 6px solid #4dccb9;
+  border-bottom: 6px solid #4dccb9;
+}
+
+
+#Contact{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+
+#Contact .row form input{
+  width: 100%;
+  margin-bottom: 20px;
+  background: transparent;
+  border: 2px solid #719ECE;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #719ECE;
+  color: white;
+  padding: 10px;
+}
+
+
+#Contact .row form textarea{
+  width: 100%;
+  margin-bottom: 10px;
+  background: transparent;
+  border: 2px solid #719ECE;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #719ECE;
+  color: white;
+}
+
+
+
+
+
+#Contact h3{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  padding-bottom: 50px;
+}
+
+
+
+#Contact  p{
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+#Contact .row img{
+  margin-top: 50px;
+}
+
+
+#footer{
+  background-color: #0b172b;
+  padding: 20px 0;
+}
+
+footer .aboutad .smediaicons i{
+  padding: 20px;
+}
+
+
+footer .aboutad .smediaicons i:hover{
+  color: #383838;
+}
+
+
+
+
+
+
+
+
+@media (max-width:975px){
+   
+
+  header{
+      margin-top: 80px;
+  }
+
+
+  header .row .col-lg-6 button{
+      margin-bottom: 50px;
+  }
+
+}
+
+@media (max-width:775px){
+  #services .serdata{
+      display: block;
+      
+  }
+  
+  #services .seblock{
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+}
+  
+@media (max-width:580px){
+  header .row .col-lg-6 h1{
+      font-size: 40px;
+      padding-top: 100px;
+  }
+
+  nav ul li{
+      font-size: 20px;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      padding: 70px;
+      transition: all ease-in-out 5s;
+      background-color: #383838;
+      margin-bottom: 10px;
+  }
+
+  nav ul li a{
+      margin: 10px 0;
+  }
+
+  #about p{
+      font-size: 18px;
+  }
+
+
+
+
+
+
+
+}
+
+
+@media (max-width:450px){
+  #about h3{
+      
+      font-size: 20px;
+  }  
+
+  #services h3{
+      
+      font-size: 20px;
+     
+  }
+
+  #portfolio h3{
+      font-size: 20px;
+  }
+
+  #clients h3{
+      font-size: 20px;
+      line-height: 30px;
+  }  
+
+  
+#Contact h3{
+  font-size: 20px;
+}
+
+}
+
+
+@media (max-width:380px){
+  header .row .col-lg-6 h1{
+      font-size: 30px;
+      padding-top: 100px;
+  }
+
+  header .row .col-lg-6 p{
+      font-size: 16px;
+      letter-spacing: 4px;
+  }
+
+
+
+}
+
+
+@media (max-width:285px){
+  header .row .col-lg-6 h1{
+      font-size: 25px;
+      padding-top: 100px;
+  }
+
+  header .row .col-lg-6 p{
+      font-size: 16px;
+      letter-spacing: 4px;
+  }
+
+}
+
+
