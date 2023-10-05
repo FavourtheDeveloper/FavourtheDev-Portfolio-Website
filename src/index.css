@@ -16,7 +16,7 @@ nav {
 }
 
 nav .navbar-toggler-icon {
-  background-color: #fae5db;
+  background-color: #0b172b;
   padding: 25px;
 }
 
@@ -42,7 +42,7 @@ header {
 header .row .col-lg-6 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 50px;
   padding-top: 100px;
 }
 
@@ -164,9 +164,10 @@ header .row .smediaicons i:hover {
 #projects h4 {
   font-family: "Lato", sans-serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
   padding-bottom: 13px;
+  letter-spacing: 3px;
 }
 
 #projects .projectcard {
@@ -192,7 +193,7 @@ header .row .smediaicons i:hover {
 
 #projects .projectcard button {
   background-color: transparent;
-  margin: 10px;
+  margin: 5px;
   border: 2px solid #7892a3;
   color: white;
   border-radius: 5px;

@@ -4,38 +4,38 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Project1",
+      title: "Password Protected File Sharing Site",
       about:
-        "Bookr is an accommodation booking website that provides users with the ability to book hotel rooms for their vacation.Its features includes a user data form, calendar, different room types to choose from, and a cart to display the price.",
-      techs: ["React", "Bootstrap", "MongoDb"],
-      code: "demo.com",
+        "It gives a feature that encrypts an uploaded file with a password and generates a link where the file can be downloaded by only those who have the password.",
+      techs: ["NodeJs", "MongoDb", "ExpressJs"],
+      code: "https://github.com/FavourtheDeveloper/Password-Protected-File-Sharing-Site-With-Node.js-MongoDB-and-Express.git",
       livedemi: "demo.com",
     },
     {
       id: 2,
-      title: "Project1",
+      title: "Node Js Passport Login System",
       about:
-        "Bookr is an accommodation booking website that provides users with the ability to book hotel rooms for their vacation.Its features includes a user data form, calendar, different room types to choose from, and a cart to display the price.",
-      techs: ["React", "Bootstrap", "MongoDb"],
-      code: "demo.com",
+        "Login and Registration System developed using Node.js, Express.js, MongoDB, and Passport.js. It offers secure user authentication and registration, making it suitable for various web applications.",
+      techs: ["NodeJs", "MongoDb", "ExpressJs", "Passport JS"],
+      code: "https://github.com/FavourtheDeveloper/Node-JS-with-Express-Passport-Auth.git",
       livedemi: "demo.com",
     },
     {
       id: 3,
-      title: "Project1",
+      title: "F-Blog",
       about:
-        "Bookr is an accommodation booking website that provides users with the ability to book hotel rooms for their vacation.Its features includes a user data form, calendar, different room types to choose from, and a cart to display the price.",
-      techs: ["React", "Bootstrap", "MongoDb"],
-      code: "demo.com",
+        "This is a Simple Blog Website Project created with Node.js, Express.js, and MongoDB. It provides an easy-to-use platform for creating and managing blog content.",
+      techs: ["Node Js", "Express Js", "MongoDb"],
+      code: "https://github.com/FavourtheDeveloper/F-BLOG.git",
       livedemi: "demo.com",
     },
     {
       id: 4,
-      title: "Project4",
+      title: "Database System with PHP",
       about:
-        "Bookr is an accommodation booking website that provides users with the ability to book hotel rooms for their vacation.Its features includes a user data form, calendar, different room types to choose from, and a cart to display the price.",
-      techs: ["React", "Bootstrap", "SQL"],
-      code: "demo.com",
+        "This is a PHP-based Database System designed for managing employee records. It allows for creating, viewing, updating, and deleting employee information, simplifying HR tasks.",
+      techs: ["PHP"],
+      code: "https://github.com/FavourtheDeveloper/Database-System-with-PHP.git",
       livedemi: "demo.com",
     },
   ];
@@ -54,7 +54,7 @@ const Projects = () => {
                   <button key={index}>{tech}</button>
                 ))}
                 <div className="githubicon text-center">
-                <a href=""><i class="fab fa-github fa-3x"></i></a>
+                <a href={project.code} target="_blank"><i class="fab fa-github fa-3x"></i></a>
                 </div>
               </div>
             </div>
