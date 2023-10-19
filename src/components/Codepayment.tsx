@@ -7,7 +7,7 @@ const Codepayment = () => {
   useEffect(() => {
     const { button } = code.elements.create('button', {
       currency: 'usd',
-      destination: 'E8otxw1CVX9bfyddKu3ZB3BVLa4VVF9J7CTPdnUwT9jR',
+      destination: 'FyADBZXgbatVndStsK7L66FRSeVsPgMjVaTeGrW2iGMU',
       amount: 0.05,
     });
 
