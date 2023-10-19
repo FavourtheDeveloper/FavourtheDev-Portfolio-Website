@@ -8,7 +8,7 @@ const Codepayment = () => {
     const { button } = code.elements.create('button', {
       currency: 'usd',
       destination: 'FyADBZXgbatVndStsK7L66FRSeVsPgMjVaTeGrW2iGMU',
-      amount: 5,
+      amount: 0.95,
     });
 
     button.mount(el.current!);
