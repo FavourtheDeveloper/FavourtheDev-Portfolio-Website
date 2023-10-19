@@ -262,6 +262,14 @@ header .row .smediaicons i:hover {
   margin-top: 50px;
 }
 
+#codepayment h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding-bottom: 13px;
+  letter-spacing: 3px;
+}
 
 #footer{
   background-color: #0b172b;

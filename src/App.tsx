@@ -1,5 +1,7 @@
+import React from 'react';
 import './App.css';
 import About from './components/About';
+import Codepayment from './components/Codepayment';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -16,6 +18,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Codepayment/>
       <Footer />
     </div>
   );
