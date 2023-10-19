@@ -253,6 +253,15 @@ header .row .smediaicons i:hover {
 
 
 
+#codepayment h4{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  padding-bottom: 50px;
+}
+
 #Contact  p{
   font-size: 18px;
   padding-bottom: 15px;
