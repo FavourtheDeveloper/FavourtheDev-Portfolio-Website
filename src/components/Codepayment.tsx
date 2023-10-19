@@ -19,7 +19,7 @@ const Codepayment = () => {
         <div className="container">
             <div className="col-lg text-center">
                 <h4 className='p-3'>Wanna buy me a coffee? 😊</h4>
-                <div className='mb-3' ref={el} />
+                <div className='mb-5' ref={el} />
             </div>
         </div>
     </div>
