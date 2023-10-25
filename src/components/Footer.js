@@ -7,7 +7,7 @@ const Footer = () => {
         <div class="aboutad text-center">
           <div class="smediaicons text-center">
             <a
-              href="https://www.linkedin.com/in/favour-olajide-favourthedev-5738621ab/"
+              href="https://www.linkedin.com/in/favourthedev"
               target="_blank"
             >
               <i class="fab fa-linkedin fa-2x"></i>
